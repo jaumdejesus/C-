@@ -1,4 +1,0 @@
-==== Conceitos Iniciais de C# (C Sharp) ====
-
-Variáveis: Quando uso o operador "var" para criar uma variável, eu não preciso especificar o tipo dela. Exemplo: var aux=10;
-
