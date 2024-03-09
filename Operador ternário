@@ -1,0 +1,20 @@
+using System;
+
+class Principal
+{     
+     
+    static void Main()
+    {
+        // regras para operador ternário | condição ? expressão1_se_true : expressão2_se_false
+        Console.WriteLine("Informe o número de x: ");
+        int x = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Informe o número de y");
+        int y = Convert.ToInt32(Console.ReadLine());
+
+        // aninhamento de expressões ternárias (mais de uma verificação)
+        var resultado = x > y ? "x é maior que y" :
+                        x < y ? "x é menor que y" :
+                        x == y ? "Ambos são iguais" : "Sem resultado";
+        Console.WriteLine(resultado);
+    }   
+}
